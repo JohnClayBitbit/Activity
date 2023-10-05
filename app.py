@@ -1,13 +1,4 @@
-# https://youtu.be/bluclMxiUkA
-"""
-Application that predicts heart disease percentage in the population of a town
-based on the number of bikers and smokers. 
 
-Trained on the data set of percentage of people biking 
-to work each day, the percentage of people smoking, and the percentage of 
-people with heart disease in an imaginary sample of 500 towns.
-
-"""
 
 
 import numpy as np
@@ -45,7 +36,7 @@ def predict():
 
     output = round(prediction[0], 2)
 
-    return render_template('index.html', prediction_text='Percent with heart disease is {}'.format(output))
+    return render_template('index.html', prediction_text='Percent Profit is{}'.format(output))
 
 
 #When the Python interpreter reads a source file, it first defines a few special variables. 
